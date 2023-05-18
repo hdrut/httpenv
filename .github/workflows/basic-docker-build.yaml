@@ -22,4 +22,4 @@ jobs:
         uses: docker/build-push-action@v4
         with:
           push: ${{ github.event_name != 'pull_request' }}
-          tags: hdrut/httpenv:latest,hdrut/httpenv:01
+          tags: horaciodrut/httpenv:latest,horaciodrut/httpenv:01
